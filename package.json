@@ -14,7 +14,7 @@
   },
   "scripts": {
     "compile": "node-gyp rebuild",
-    "prepublish": "npm run build",
+    "prepare": "npm run build",
     "build": "npx tsc -p tsconfig.json",
     "test": "npx nyc ./node_modules/.bin/mocha --reporter mocha-circleci-reporter --slow 0.0001 --timeout 10000 -b -r ts-node/register test/**/*.spec.ts"
   },
