@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "classic",
+    "target": "es6",
+    "lib": ["es6", "dom"],
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "sourceMap": false,
+    "declaration": true,
+    "declarationDir": "dist/types",
+    "outDir": "dist",
+    "allowSyntheticDefaultImports": true,
+    "typeRoots": ["node_modules/@types"]
+  },
+  "files": ["lib/index.ts"]
+}

@@ -1,0 +1,62 @@
+{
+  "name": "@synaphea/mhash",
+  "version": "1.0.0",
+  "description": "Binding for mhash library",
+  "main": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "keywords": [
+    "mhash",
+    "hashing"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/synaphea/mhash.git"
+  },
+  "scripts": {
+    "compile": "node-gyp rebuild",
+    "prepublish": "npm run build",
+    "build": "npx tsc -p tsconfig.json",
+    "test": "npx nyc ./node_modules/.bin/mocha --reporter mocha-circleci-reporter --slow 0.0001 --timeout 10000 -b -r ts-node/register test/**/*.spec.ts"
+  },
+  "nyc": {
+    "include": [
+      "lib/**/*.ts",
+      "lib/**/*.tsx"
+    ],
+    "extension": [
+      ".ts",
+      ".tsx"
+    ],
+    "require": [
+      "ts-node/register"
+    ],
+    "reporter": [
+      "text-summary",
+      "html"
+    ],
+    "sourceMap": true,
+    "instrument": true
+  },
+  "author": "George Theofilis",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "@types/chai": "4.0.4",
+    "@types/crypto-js": "3.1.38",
+    "@types/mocha": "2.2.42",
+    "@types/node": "8.0.24",
+    "ajv": "5.2.2",
+    "chai": "4.1.1",
+    "mocha": "3.5.0",
+    "mocha-circleci-reporter": "0.0.2",
+    "nyc": "11.4.1",
+    "ts-node": "5.0.1",
+    "tslint": "5.6.0",
+    "tslint-config-standard": "6.0.1",
+    "typescript": "2.4.2"
+  },
+  "dependencies": {
+    "crypto-js": "3.1.9-1",
+    "nan": "2.8.0",
+    "node-gyp": "3.6.2"
+  }
+}
