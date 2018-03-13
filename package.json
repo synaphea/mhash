@@ -14,6 +14,7 @@
   },
   "scripts": {
     "compile": "node-gyp rebuild",
+    "report-coverage": "npx nyc report --reporter=text-lcov > coverage.lcov && npx codecov --token=2849be8d-ef2b-4c52-b5aa-f3ec0df6932f",
     "prepare": "npm run build",
     "build": "npx tsc -p tsconfig.json",
     "test": "npx nyc ./node_modules/.bin/mocha --reporter mocha-circleci-reporter --slow 0.0001 --timeout 10000 -b -r ts-node/register -P tsconfig.test.json test/**/*.spec.ts"
@@ -46,6 +47,7 @@
     "@types/node": "8.0.24",
     "ajv": "5.2.2",
     "chai": "4.1.1",
+    "codecov": "3.0.0",
     "mocha": "3.5.0",
     "mocha-circleci-reporter": "0.0.2",
     "nyc": "11.4.1",
