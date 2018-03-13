@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="0.059" tests="6" failures="0">
-  <testsuite name="Root Suite" timestamp="2018-03-12T08:58:15" tests="0" failures="0" time="0">
+<testsuites name="Mocha Tests" time="0.06" tests="6" failures="0">
+  <testsuite name="Root Suite" timestamp="2018-03-13T10:19:29" tests="0" failures="0" time="0">
   </testsuite>
-  <testsuite name="Check hash libraries" timestamp="2018-03-12T08:58:15" tests="6" file="/mnt/c/Projects/mhash-binding/test/Hash.spec.ts" failures="0" time="0.059">
-    <testcase name="Check hash libraries MD5 tests" time="0" classname="MD5 tests">
+  <testsuite name="Check hash libraries" timestamp="2018-03-13T10:19:29" tests="6" file="/mnt/c/Projects/mhash-binding/test/Hash.spec.ts" failures="0" time="0.06">
+    <testcase name="Check hash libraries MD5 tests" time="0.002" classname="MD5 tests">
     </testcase>
-    <testcase name="Check hash libraries adler32 tests" time="0.001" classname="adler32 tests">
+    <testcase name="Check hash libraries adler32 tests" time="0" classname="adler32 tests">
     </testcase>
     <testcase name="Check hash libraries Bench MD5 tests (native)" time="0.006" classname="Bench MD5 tests (native)">
     </testcase>
-    <testcase name="Check hash libraries Bench MD5 tests (js)" time="0.033" classname="Bench MD5 tests (js)">
+    <testcase name="Check hash libraries Bench MD5 tests (js)" time="0.035" classname="Bench MD5 tests (js)">
     </testcase>
     <testcase name="Check hash libraries Bench SHA256 tests (native)" time="0.004" classname="Bench SHA256 tests (native)">
     </testcase>
-    <testcase name="Check hash libraries Bench SHA256 tests (js)" time="0.015" classname="Bench SHA256 tests (js)">
+    <testcase name="Check hash libraries Bench SHA256 tests (js)" time="0.013" classname="Bench SHA256 tests (js)">
     </testcase>
   </testsuite>
 </testsuites>
