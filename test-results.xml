@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="0.065" tests="8" failures="0">
-  <testsuite name="Root Suite" timestamp="2018-03-13T10:41:49" tests="0" failures="0" time="0">
+<testsuites name="Mocha Tests" time="0.07600000000000001" tests="10" failures="0">
+  <testsuite name="Root Suite" timestamp="2018-03-13T11:12:10" tests="0" failures="0" time="0">
   </testsuite>
-  <testsuite name="Check hash libraries" timestamp="2018-03-13T10:41:49" tests="8" file="/mnt/c/Projects/mhash-binding/test/Hash.spec.ts" failures="0" time="0.065">
-    <testcase name="Check hash libraries MD2 tests" time="0.002" classname="MD2 tests">
+  <testsuite name="Check hash libraries" timestamp="2018-03-13T11:12:10" tests="10" file="/mnt/c/Projects/mhash-binding/test/Hash.spec.ts" failures="0" time="0.07600000000000001">
+    <testcase name="Check hash libraries MD2 tests" time="0.001" classname="MD2 tests">
     </testcase>
     <testcase name="Check hash libraries MD5 tests" time="0" classname="MD5 tests">
     </testcase>
-    <testcase name="Check hash libraries SHA256 tests" time="0" classname="SHA256 tests">
+    <testcase name="Check hash libraries SHA256 tests" time="0.001" classname="SHA256 tests">
     </testcase>
-    <testcase name="Check hash libraries adler32 tests" time="0.001" classname="adler32 tests">
+    <testcase name="Check hash libraries sha512 tests" time="0.001" classname="sha512 tests">
     </testcase>
-    <testcase name="Check hash libraries Bench MD5 tests (native)" time="0.007" classname="Bench MD5 tests (native)">
+    <testcase name="Check hash libraries adler32 tests" time="0" classname="adler32 tests">
     </testcase>
-    <testcase name="Check hash libraries Bench MD5 tests (js)" time="0.032" classname="Bench MD5 tests (js)">
+    <testcase name="Check hash libraries tiger192 tests" time="0.001" classname="tiger192 tests">
     </testcase>
-    <testcase name="Check hash libraries Bench SHA256 tests (native)" time="0.005" classname="Bench SHA256 tests (native)">
+    <testcase name="Check hash libraries Bench MD5 tests (native)" time="0.008" classname="Bench MD5 tests (native)">
+    </testcase>
+    <testcase name="Check hash libraries Bench MD5 tests (js)" time="0.042" classname="Bench MD5 tests (js)">
+    </testcase>
+    <testcase name="Check hash libraries Bench SHA256 tests (native)" time="0.004" classname="Bench SHA256 tests (native)">
     </testcase>
     <testcase name="Check hash libraries Bench SHA256 tests (js)" time="0.018" classname="Bench SHA256 tests (js)">
     </testcase>
