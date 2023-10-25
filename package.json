@@ -57,7 +57,7 @@
     "typescript": "2.4.2"
   },
   "dependencies": {
-    "crypto-js": "3.1.9-1",
+    "crypto-js": "4.2.0",
     "nan": "2.8.0",
     "node-gyp": "3.6.2"
   }
